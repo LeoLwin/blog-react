@@ -107,6 +107,9 @@ const List = () => {
     return (
       <div className="container">
         <div className="row mt-5">
+          <div className="col-md-12">
+            <h1>YHW Blog List</h1>
+          </div>
           <div className="col-12 ">
             <button className="btn btn-primary" onClick={toggleCreate}>
               <i className="fa-solid fa-plus"></i>
