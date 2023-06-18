@@ -10,13 +10,13 @@ const Post = (props) => {
             className="btn btn-warning me-2"
             onClick={() => props.editPost(props.post.id)}
           >
-            <i className="fa-solid fa-pen-to-square"></i> Edit
+            <i className="fa-solid fa-pen-to-square"></i>
           </button>
           <button
             className="btn btn-danger"
             onClick={() => props.deletePost(props.post.id)}
           >
-            <i className="fa-solid fa-trash"></i> Delete
+            <i className="fa-solid fa-trash"></i>
           </button>
         </td>
       </tr>

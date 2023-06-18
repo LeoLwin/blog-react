@@ -110,7 +110,7 @@ const List = () => {
           <div className="col-12 ">
             <button className="btn btn-primary" onClick={toggleCreate}>
               <i className="fa-solid fa-plus"></i>
-              Create New
+              New
             </button>
 
             <table className="table mt-3">
